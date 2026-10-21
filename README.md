@@ -11,7 +11,7 @@ qualifies visitors as leads against the agency's data, and hands qualified leads
 
 | | |
 |---|---|
-| LLM provider / model | Groq, **`openai/gpt-oss-20b`** for development, tests and the live eval (free tier, tool calling, `reasoning_effort=low`); the sample transcripts were recorded with `openai/gpt-oss-120b` after the 20b model's daily token quota ran out. `llama-3.3-70b-versatile` was not available to the dev key (404), so it was not used. |
+| LLM provider / model | Groq, **`openai/gpt-oss-20b`** for development, tests and the live eval (free tier, tool calling, `reasoning_effort=low`); the sample transcripts were recorded with `openai/gpt-oss-120b` after the 20b model's daily token quota ran out. ` |
 | Embeddings | Local ONNX model `BAAI/bge-small-en-v1.5` via fastembed (no key). The lexical fallback (below) is used if the model cannot download. |
 | Python | 3.11 |
 
@@ -183,12 +183,9 @@ flowchart TD
 
 ### Embeddings and the offline fallback
 
-The default embedding model is a small local ONNX model downloaded **once** from Hugging Face on first use.
-Corporate networks that re-sign HTTPS traffic make this (and every LLM call) fail with `CERTIFICATE_VERIFY_FAILED`,
-which is what happened on the dev machine. The app therefore trusts the **operating system's certificate store** at
-start-up (`USE_SYSTEM_CERTS=true`, via `truststore`): verification stays on, it just uses the company certificate
-your OS already trusts. It also sets `HF_HUB_DISABLE_XET=1`, because Hugging Face's Xet transfer fails behind some
-proxies ("Byte range not sequential"). With both, the neural model downloads and works. If it still cannot load:
+Embedding setup and offline fallback
+
+The default embedding model uses a local ONNX model downloaded from Hugging Face on first use. In environments with HTTPS-inspecting proxies or restricted network access, model downloads may fail due to certificate verification or transfer errors. Configure Python to trust the appropriate CA bundle for your environment, or use a supported hosted embedding provider. If the neural model cannot load, the application falls back to a lexical embedding implementation.
 
 1. Point Python at your organisation's CA bundle (`SSL_CERT_FILE` / `REQUESTS_CA_BUNDLE`) and retry; or
 2. Use a hosted embedding model: `EMBEDDING_PROVIDER=openai|gemini` with `EMBEDDING_API_KEY`; or
