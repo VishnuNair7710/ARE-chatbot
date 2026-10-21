@@ -1,0 +1,13 @@
+[project]
+name = "arbot"
+version = "0.1.0"
+description = "Ashcombe & Rowe lead-qualification chatbot"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+markers = ["live: needs a real LLM key (skipped by default)"]

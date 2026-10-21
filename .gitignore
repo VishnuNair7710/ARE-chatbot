@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+chroma/
+*.db
+*.jsonl
+.hypothesis/
+eval/reports/
+turns.jsonl
+leads.db

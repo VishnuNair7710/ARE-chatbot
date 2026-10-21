@@ -1,0 +1,27 @@
+# FAQ retrieval quality: does the right FAQ entry appear in the top results?
+# expected: a faq_id, or null for questions the FAQ cannot answer (top score must stay below the floor).
+- {q: "What is your head office address?", expected: FAQ-009}
+- {q: "where is your Mayfair office", expected: FAQ-009}
+- {q: "What is your head office phone number?", expected: FAQ-008}
+- {q: "how do I contact head office by phone", expected: FAQ-008}
+- {q: "What are the Chelsea branch opening hours?", expected: FAQ-023}
+- {q: "what time does the Oxford branch open", expected: FAQ-028}
+- {q: "Where is the Guildford branch?", expected: FAQ-017}
+- {q: "Which branch covers Esher and Weybridge?", expected: FAQ-021}
+- {q: "which of your offices is nearest to Kew", expected: FAQ-020}
+- {q: "do you charge buyers a fee", expected: FAQ-032}
+- {q: "how do I arrange a viewing", expected: FAQ-031}
+- {q: "is the valuation free", expected: FAQ-039}
+- {q: "what are your selling fees", expected: FAQ-040}
+- {q: "how long does it take to sell a home", expected: FAQ-041}
+- {q: "do you do lettings", expected: FAQ-044}
+- {q: "Are you open on bank holidays?", expected: FAQ-030}
+- {q: "can I speak to a person", expected: FAQ-012}
+- {q: "how quickly will someone call me back", expected: FAQ-011}
+- {q: "when was the company founded", expected: FAQ-003}
+- {q: "are you members of Propertymark", expected: FAQ-007}
+- {q: "do you work with international buyers", expected: FAQ-047}
+- {q: "how do you handle my personal data", expected: FAQ-046}
+- {q: "what is the airspeed velocity of an unladen swallow", expected: null}
+- {q: "quantum chromodynamics lagrangian", expected: null}
+- {q: "write me a poem about autumn", expected: null}

@@ -1,0 +1,25 @@
+services:
+  api:
+    build: {context: ., target: api}
+    env_file:
+      - path: .env          # optional: LLM_API_KEY etc. (copy .env.example to .env)
+        required: false
+    volumes:
+      - chatdata:/data      # sessions, leads, vector index, model cache, turn logs
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+  ui:
+    build: {context: ., target: ui}
+    environment:
+      API_URL: http://api:8000
+    depends_on:
+      api:
+        condition: service_healthy
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
+
+volumes:
+  chatdata:

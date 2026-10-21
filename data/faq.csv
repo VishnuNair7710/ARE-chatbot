@@ -1,0 +1,48 @@
+faq_id,category,question,answer
+FAQ-001,company,Who are Ashcombe & Rowe Estates?,"Ashcombe & Rowe Estates is an independent estate agency specialising in homes priced from £1 million in London, Surrey and Oxford. We help clients buy new-build and resale homes and sell their properties."
+FAQ-002,company,Tell me about yourselves.,"We are a family-founded estate agency established in 2004, with six branches across London, Surrey and Oxford and a head office in Mayfair. Our team of 60+ negotiators focuses on prime and upper-market residential property."
+FAQ-003,company,When was the company founded?,"Ashcombe & Rowe Estates was founded in 2004 by Helen Ashcombe and David Rowe, opening its first branch in Chelsea."
+FAQ-004,company,Where are you located geographically?,"We operate across London (Chelsea, Hampstead and Richmond), Surrey (Guildford and Cobham) and Oxford. Our head office is in Mayfair, London."
+FAQ-005,company,Which areas do you cover?,"Our branches serve Chelsea, South Kensington and West Brompton; Hampstead, St John's Wood and West Hampstead; Richmond, Kew and East Sheen; Guildford and surrounding villages; Cobham, Esher and Weybridge; and Oxford. Coverage is confirmed at full-postcode level, so share your postcode and we will check it for you."
+FAQ-006,company,Do you deal with properties under £1 million?,"Our new-build service is for homes priced at £1 million and above. Our resale listings cover a wider range of prices, including some homes under £1 million. For anything else, please call our head office on 020 7946 0100."
+FAQ-007,company,Are you a member of any professional body?,"Yes. We are members of Propertymark and The Property Ombudsman, and we follow their codes of practice."
+FAQ-008,contact,What is your head office phone number?,"Our head office can be reached on 020 7946 0100, Monday to Friday, 9:00 am to 6:00 pm."
+FAQ-009,contact,What is your head office address?,"Our head office is at 22 Halden Mews, Mayfair, London W1K 2PX."
+FAQ-010,contact,What is your email address?,"You can email general enquiries to hello@ashcombe-rowe.example. Each branch also has its own email address, listed on the branch details."
+FAQ-011,contact,How quickly will someone get back to me?,"We aim to respond to all enquiries within 24 hours, by phone or email."
+FAQ-012,contact,Can I speak to a human?,"Of course. Call our head office on 020 7946 0100 or your local branch, and one of our negotiators will be happy to help."
+FAQ-013,branches,What branches do you have?,"We have six branches: Chelsea, Hampstead, Richmond, Guildford, Cobham and Oxford, plus our head office in Mayfair."
+FAQ-014,branches,What is the address and phone number of the Chelsea branch?,"Chelsea branch: 148 King's Road, London SW3 4UB. Phone: 020 7946 0210. Email: chelsea@ashcombe-rowe.example."
+FAQ-015,branches,What is the address and phone number of the Hampstead branch?,"Hampstead branch: 31 Heath Street, London NW3 6TR. Phone: 020 7946 0320. Email: hampstead@ashcombe-rowe.example."
+FAQ-016,branches,What is the address and phone number of the Richmond branch?,"Richmond branch: 9 Hill Street, Richmond TW9 1SX. Phone: 020 7946 0430. Email: richmond@ashcombe-rowe.example."
+FAQ-017,branches,What is the address and phone number of the Guildford branch?,"Guildford branch: 57 High Street, Guildford GU1 3DY. Phone: 01632 960110. Email: guildford@ashcombe-rowe.example."
+FAQ-018,branches,What is the address and phone number of the Cobham branch?,"Cobham branch: 12 High Street, Cobham KT11 3DW. Phone: 01632 960220. Email: cobham@ashcombe-rowe.example."
+FAQ-019,branches,What is the address and phone number of the Oxford branch?,"Oxford branch: 104 Walton Street, Oxford OX2 6EB. Phone: 01632 960330. Email: oxford@ashcombe-rowe.example."
+FAQ-020,branches,Which branch is closest to Kew?,"Kew is covered by our Richmond branch at 9 Hill Street, Richmond TW9 1SX (020 7946 0430)."
+FAQ-021,branches,Which branch covers Esher and Weybridge?,"Esher (KT10) and Weybridge (KT13) are covered by our Cobham branch at 12 High Street, Cobham KT11 3DW (01632 960220)."
+FAQ-022,hours,What are your head office opening hours?,"Head office is open Monday to Friday, 9:00 am to 6:00 pm. It is closed on weekends and bank holidays."
+FAQ-023,hours,What are the Chelsea branch opening hours?,"Chelsea branch: Monday to Friday 9:00 am - 7:00 pm, Saturday 10:00 am - 5:00 pm, Sunday 11:00 am - 3:00 pm."
+FAQ-024,hours,What are the Hampstead branch opening hours?,"Hampstead branch: Monday to Friday 9:00 am - 6:30 pm, Saturday 10:00 am - 4:00 pm, closed Sunday."
+FAQ-025,hours,What are the Richmond branch opening hours?,"Richmond branch: Monday to Friday 9:00 am - 6:00 pm, Saturday 9:30 am - 4:30 pm, closed Sunday."
+FAQ-026,hours,What are the Guildford branch opening hours?,"Guildford branch: Monday to Friday 8:30 am - 5:30 pm, Saturday 9:00 am - 4:00 pm, closed Sunday."
+FAQ-027,hours,What are the Cobham branch opening hours?,"Cobham branch: Monday to Friday 9:00 am - 6:00 pm, Saturday 10:00 am - 4:00 pm, closed Sunday."
+FAQ-028,hours,What are the Oxford branch opening hours?,"Oxford branch: Monday to Friday 9:00 am - 5:30 pm, Saturday 10:00 am - 3:00 pm, closed Sunday."
+FAQ-029,hours,Are any of your branches open on Sunday?,"Only our Chelsea branch is open on Sundays, from 11:00 am to 3:00 pm. All other branches and the head office are closed on Sundays."
+FAQ-030,hours,Are you open on bank holidays?,All branches and the head office are closed on bank holidays. You can still email us and we will reply on the next working day.
+FAQ-031,buying,How do I arrange a viewing?,"You can arrange a viewing by calling the branch that handles the property, or by leaving your details with us and a negotiator will contact you within 24 hours. Viewings are available seven days a week by appointment."
+FAQ-032,buying,Do you charge buyers a fee?,No. We do not charge buyers any fees. Our fees are paid by the seller.
+FAQ-033,buying,What is the difference between a new-build and a resale home?,"A new-build home is being sold for the first time, usually directly from a developer, and typically comes with a 10-year build warranty. A resale home has been lived in before and is being sold by its current owner."
+FAQ-034,buying,Do I need a mortgage in principle before viewing?,"It is not required to view a property, but we strongly recommend having a mortgage agreement in principle or proof of funds before making an offer, as sellers will usually ask for it."
+FAQ-035,buying,Can you recommend a mortgage adviser?,"Yes. We work with an independent, FCA-regulated mortgage broker who can search the whole market for you. Ask any branch for an introduction; there is no obligation."
+FAQ-036,buying,What documents do I need to make an offer?,"To make an offer you will need photo ID, proof of address and proof of funds (or a mortgage agreement in principle). This is required under UK anti-money laundering regulations."
+FAQ-037,buying,Can I buy a property off-plan?,Yes. Several of our new-build developments are available off-plan. Reservation fees and deposit terms vary by developer; your negotiator can share the details for a specific development.
+FAQ-038,selling,How do I sell my home with you?,"Start by booking a free market valuation. After the valuation we agree a marketing plan and fee, prepare photography, floor plans and an energy performance certificate (EPC), and then launch your property to our registered buyers and online portals."
+FAQ-039,selling,Is the valuation free?,Yes. Our market valuations are free and come with no obligation to instruct us.
+FAQ-040,selling,What are your selling fees?,Our standard sole-agency fee is 1.5% of the agreed sale price plus VAT. Multi-agency is 2.25% plus VAT. There are no upfront costs; you pay only when your sale completes.
+FAQ-041,selling,How long does it usually take to sell a home?,"On average, our properties go under offer within 6 to 10 weeks of launching, and completion typically follows 8 to 12 weeks after an offer is accepted. Timings vary with price, location and the chain."
+FAQ-042,selling,Do I need an EPC to sell my home?,Yes. In England an energy performance certificate (EPC) is legally required before marketing a property. We can arrange one for you.
+FAQ-043,selling,What areas do you cover for selling?,We can help sell homes in the postcodes covered by our six branches. Share your postcode and we will confirm whether it is covered.
+FAQ-044,general,Do you offer lettings or rentals?,No. We focus on sales only and do not currently offer lettings or property management. For rental enquiries please call our head office on 020 7946 0100 and we can recommend a partner agency.
+FAQ-045,general,"Can you give me legal or tax advice, such as stamp duty?",We cannot give legal or tax advice. We recommend speaking to a qualified solicitor or tax adviser about stamp duty and other legal matters. We are happy to recommend solicitors we work with.
+FAQ-046,general,How do you handle my personal data?,We process your personal data in line with UK GDPR. We only use your details to respond to your enquiry and will never sell your data. You can ask us to delete your data at any time by emailing privacy@ashcombe-rowe.example.
+FAQ-047,general,Do you work with international buyers?,Yes. Around a quarter of our buyers are based overseas. We can arrange video viewings and work with your solicitor and adviser remotely.
